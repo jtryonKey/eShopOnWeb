@@ -9,8 +9,8 @@ env:
   LOCATION: centralus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 13f4e665-0967-491a-8e8e-13dd218d8d38
-  WEBAPP-NAME: eshoponweb-webapp-Jerebe
-
+  WEBAPP-NAME: EShopOnWeb
+  
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
